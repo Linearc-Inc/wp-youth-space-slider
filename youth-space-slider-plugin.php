@@ -3,7 +3,7 @@
  * Plugin Name:Youth Space Slider
  * Plugin URI: https://www.linearc.biz/profile/
  * Description: This creates suscribe, unsuscribe and email verification compatibility for linearc site.
- * Version: 1.1
+ * Version: 1.2
  * Author: Isakiye Afasha
  * GitHub Plugin URI: https://github.com/Linearc-Inc/wp-youth-space-slider
  * Author URI: http://www.iamafasha.com
@@ -27,5 +27,5 @@ require_once plugin_dir_path( __FILE__ ).'/classes/Updater.php';
 require_once plugin_dir_path( __FILE__ ).'/inc/shortcode.php';
 
 if ( is_admin() ) {
-    new Linearc\Plugin\YouthSpaceSlider\Updater( __FILE__, 'Linearc-Inc', "wp-youth-space-slider" ,"0345013c4ec53e41c7523332c1c61ef2fc745a41" );
+   // new Linearc\Plugin\YouthSpaceSlider\Updater( __FILE__, 'Linearc-Inc', "wp-youth-space-slider" ,"0345013c4ec53e41c7523332c1c61ef2fc745a41" );
 }
